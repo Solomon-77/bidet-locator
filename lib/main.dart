@@ -101,6 +101,9 @@ class MyApp extends StatelessWidget {
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.blue[900],
                           minimumSize: const Size(1000, 60),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30.0),
+                          ),
                         ),
                         child: const Text(
                           'Login',
